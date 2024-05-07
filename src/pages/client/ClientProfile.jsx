@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 import { FaUserCircle } from "react-icons/fa"; // Import the profile icon
 
 const ClientProfile = () => {
