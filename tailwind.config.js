@@ -15,6 +15,11 @@ export default {
           "url('https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?w=826&t=st=1714757213~exp=1714753~hmac=d6d596220d7e430ae3afd2b8b2801f6815c76e16727aca2c755eff399b73369c')",
       }),
       colors: {
+        primary: "#FF6347", // or '#FFA500' for orange
+        secondary: "#FFD700",
+        background: "#FFFFFF",
+        text: "#333333",
+        accent: "#008080",
         gray: {
           100: "#f7f7f7",
           200: "#efefef",

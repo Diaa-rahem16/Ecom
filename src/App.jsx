@@ -9,8 +9,10 @@ import HomePage from "./pages/HomePage";
 import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/SignUp";
 import About from "./pages/About";
-import ClientInfo from "./pages/Auth/ClientInfo";
-import SellerInfo from "./pages/Auth/SellerInfo";
+import ClientInfo from "./pages/client/ClientInfo";
+import SellerInfo from "./pages/seller/SellerInfo";
+import SearchPage from "./pages/SearchPage";
+import ClientProfile from "./pages/client/ClientProfile";
 function Navigation() {
   const navigate = useNavigate();
 
@@ -30,8 +32,10 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/clientInfo" element={<ClientInfo />} />
-        <Route path="/sellerInfo" element={<SellerInfo />} />
+        <Route path="/signup/clientInfo" element={<ClientInfo />} />
+        <Route path="/signup/sellerInfo" element={<SellerInfo />} />
+        <Route path="/home/search" element={<SearchPage />} />
+        <Route path="/home/profile" element={<ClientProfile />} />
       </Routes>
     </Router>
   );

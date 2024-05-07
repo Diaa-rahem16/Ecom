@@ -57,10 +57,10 @@ input:focus {
     @apply appearance-none mt-2 bg-gray-200 bg-opacity-80 border-none rounded-none relative block w-full px-6 py-3 border text-xl border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm text-xl my-2;
   }
   .button {
-    @apply bg-black text-white py-4 opacity-90 px-2 rounded hover:bg-opacity-85 transition duration-200 ease-in-out;
+    @apply bg-primary text-white     py-4 px-2 rounded hover:bg-opacity-85 transition duration-200 ease-in-out;
   }
   .label {
-    @apply font-semibold text-gray-900 text-lg mb-3;
+    @apply font-semibold text-text text-lg mb-3;
   }
 }
 

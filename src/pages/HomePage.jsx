@@ -7,7 +7,7 @@ import ImageSlider from "../components/Slider";
 import Footer from "../components/Footer";
 const HomePage = () => {
   return (
-    <div className="bg-[#F0F0F0] bg-cover">
+    <div className="bg-[#F0F0F0] bg-cover overflow-x-hidden max-w-screen">
       <Header />
       <ImageSlider />
       <BestSells />

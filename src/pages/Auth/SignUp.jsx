@@ -44,9 +44,9 @@ const SignUp = () => {
 
     // After form is successfully submitted
     if (signUpForm.userType === "client") {
-      navigate("/clientInfo", { state: { formData: signUpForm } });
+      navigate("/signup/clientInfo", { state: { formData: signUpForm } });
     } else if (signUpForm.userType === "seller") {
-      navigate("/sellerInfo", { state: { formData: signUpForm } });
+      navigate("/signup/sellerInfo", { state: { formData: signUpForm } });
     }
     // ...
   };
